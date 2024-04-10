@@ -34,4 +34,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Features
 
-- Page transition (Framer-motion / template.tsx file)
+- Page transition : Framer-motion / template.tsx file
+- Carousel (no lib) : lucide Icon

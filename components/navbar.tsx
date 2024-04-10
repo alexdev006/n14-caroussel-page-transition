@@ -8,6 +8,7 @@ const navLinks: NavLink[] = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
+  { name: "Photos", href: "/photo" },
 ] as const;
 
 export default function Navbar() {
