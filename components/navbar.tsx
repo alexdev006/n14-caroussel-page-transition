@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import { NavLink } from '@/types/navLinks.js';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation.js';
+import { NavLink } from "@/types/navLinks.js";
+import Link from "next/link";
+import { usePathname } from "next/navigation.js";
 
 const navLinks: NavLink[] = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Contact", href: "/contact" },
 ] as const;
 
 export default function Navbar() {
@@ -22,8 +22,8 @@ export default function Navbar() {
             href={href}
             className={`${
               pathname === href
-                ? 'underline-offset-8 underline decoration-sky-500 font-bold decoration-2'
-                : ''
+                ? "underline-offset-8 underline  decoration-sky-500 font-bold decoration-4"
+                : ""
             }`}
           >
             {name}
